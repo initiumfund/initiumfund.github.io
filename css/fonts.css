@@ -1,15 +1,12 @@
-
-/*  Fonts - Find/Replace your website fonts with your custom font name. */
-
-/*Body*/
+/* Fonts - Find/Replace your website fonts with your custom font name.*/
 body {
 	font-size: 1em;
-	font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
 
 /*Paragraphs*/
 p {
-	font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
 
 /*Headings*/

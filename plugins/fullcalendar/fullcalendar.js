@@ -12493,7 +12493,7 @@ var AgendaView = /** @class */ (function (_super) {
         this.timeGrid.setElement(timeGridEl);
         if (this.dayGrid) {
             this.dayGrid.setElement(this.el.find('.fc-day-grid'));
-            // have the day-grid extend it's coordinate area over the <hr> dividing the two grids
+            // have the day-grid extend it's coordinate area over the <hr class="space"> dividing the two grids
             this.dayGrid.bottomCoordPadding = this.dayGrid.el.next('hr').outerHeight();
         }
     };
@@ -12563,7 +12563,7 @@ var AgendaView = /** @class */ (function (_super) {
         // set of fake row elements that must compensate when scroller has scrollbars
         var noScrollRowEls = this.el.find('.fc-row:not(.fc-scroller *)');
         // reset all dimensions back to the original state
-        this.timeGrid.bottomRuleEl.hide(); // .show() will be called later if this <hr> is necessary
+        this.timeGrid.bottomRuleEl.hide(); // .show() will be called later if this <hr class="space"> is necessary
         this.scroller.clear(); // sets height to 'auto' and clears overflow
         util_1.uncompensateScroll(noScrollRowEls);
         // limit number of events in the all-day area
